@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals'
 import { GoogleOAuthProvider } from '@react-oauth/google';  
 
 
-const clerkPubKey = process.env.VITE_CLERK_PUBLISHABLE_KEY
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

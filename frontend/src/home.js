@@ -14,7 +14,7 @@ const Home = (props) => {
       {/* The children of the SignedOut component are rendered only when the user is signed out from the app. In this case, the app will render a SignInButton */}
       <SignedOut>
         <SignInButton>
-          <input className={'inputButton'} type="button" value={'Log in'} />
+          <input className={'inputButton'} type="button" value={'Log in'}  />
         </SignInButton>
       </SignedOut>
 
